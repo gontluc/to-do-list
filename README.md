@@ -2,9 +2,12 @@
 
 Create math expressions for Markdown easily with this React.js project.
 
+@gontluc may 2022
+
 <br />
 
-#image
+![Page Preview](images/to-do-list.png)
+
 
 <br />
 
