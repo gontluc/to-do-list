@@ -55,7 +55,7 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path='/' exact element={
+        <Route path='/projects/react-app/' exact element={
           <>
             <div id="output-container">
               <Tasks 
@@ -79,7 +79,7 @@ function App() {
           </>
         }/>
 
-        <Route path='/about' element={<About />}/>
+        <Route path='/projects/react-app/about' element={<About />}/>
       </Routes>
 
       <Footer />
