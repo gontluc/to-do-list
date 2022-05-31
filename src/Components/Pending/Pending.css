@@ -1,0 +1,21 @@
+#second-output-element {
+    color: #fff;
+    background-color: #333;
+    padding: 10px;
+
+    width: 350px;
+    overflow: auto;
+    min-height: 200px;
+    padding: 30px;
+
+    margin: 20px;
+    margin-bottom: 0;
+
+    opacity: 0;
+    animation: appear-oppacity 1s ease-in-out forwards;
+    animation-delay: 2s;
+}
+
+#second-output-element h3 {
+    margin-bottom: 15px;
+}

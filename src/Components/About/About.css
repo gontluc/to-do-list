@@ -1,0 +1,13 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 35px 70px;
+}
+
+.about-title {
+    align-self: start;
+    margin: 20px;
+    margin-left: 0;
+}

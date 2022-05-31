@@ -1,0 +1,10 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+
+    transform: translateX(-100%);
+    animation: left-to-right 1s ease-in-out forwards;
+    animation-delay: 2.5s;
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+.form-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    height: 150px;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.form-div input{
+    pointer-events: none;
+    display: hide;
+}
+
+.form-div input::-webkit-file-upload-button{
+    background-color: blue;
+    color: #fff;
+    pointer-events: all;
+    cursor: pointer;
+    display: block;
+    border: blue solid 2px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-div input::-webkit-file-upload-button:focus {
+    outline: none;
+}
+
+.form-div input::-webkit-file-upload-button:active {
+    transform: scale(0.98);
+}
+
+.form-div input::-webkit-file-upload-button:hover {
+    background-color: #fff;
+    color: blue;
+    font-weight: bold;
+}

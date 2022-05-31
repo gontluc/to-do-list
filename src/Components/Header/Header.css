@@ -1,0 +1,13 @@
+.header {
+    background-color: #f4f4f4;
+    color: #333;
+    width: 100vw;
+    min-height: 50px;
+    font-size: x-large;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-100%);
+    animation: left-to-right 1s ease-in-out forwards;
+}
