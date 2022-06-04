@@ -12,7 +12,9 @@ Keep track of your daily tasks with this React.js project.
 <br />
 
 ## Dependencies 
+
 react-router-dom
+
 react-icons
 
 ## React Hooks
