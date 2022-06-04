@@ -1,6 +1,6 @@
 # to-do-list
 
-Create math expressions for Markdown easily with this React.js project.
+Keep track of your daily tasks with this React.js project.
 
 @gontluc may 2022
 
